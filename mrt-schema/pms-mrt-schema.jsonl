@@ -1,0 +1,375 @@
+{"document":"Invoice","section":"","srl":1,"table":"fmsInvoice","field":"documentNo","type":"String","description":"Invoice No","example":"FMS/00017/20-21"}
+{"document":"Invoice","section":"","srl":2,"table":"fmsInvoice","field":"documentDate","type":"DateTime","description":"Invoice Date","example":"2020-09-15T00:00:00"}
+{"document":"Invoice","section":"","srl":3,"table":"fmsInvoice","field":"booking_documentNo","type":"String","description":"Booking No","example":"JGERNAG/00017/19-20"}
+{"document":"Invoice","section":"","srl":4,"table":"fmsInvoice","field":"booking_documentDate","type":"datatime","description":"Booking Date","example":"2020-03-31T00:00:00"}
+{"document":"Invoice","section":"","srl":5,"table":"fmsInvoice","field":"unit_code","type":"String","description":"Unit Code","example":"FMS:103"}
+{"document":"Invoice","section":"","srl":6,"table":"fmsInvoice","field":"invoiceType","type":"String","description":"Invoice Type","example":"DayWise"}
+{"document":"Invoice","section":"","srl":7,"table":"fmsInvoice","field":"gracePeriod","type":"int","description":"Due Days","example":"7"}
+{"document":"Invoice","section":"","srl":8,"table":"fmsInvoice","field":"billingMonth,","type":"int","description":"Billing Month","example":"1"}
+{"document":"Invoice","section":"","srl":9,"table":"fmsInvoice","field":"monthName","type":"String","description":"Month Name","example":"January"}
+{"document":"Invoice","section":"","srl":10,"table":"fmsInvoice","field":"billingyear","type":"int","description":"Billing Year","example":"2020"}
+{"document":"Invoice","section":"","srl":11,"table":"fmsInvoice","field":"amountLCY","type":"decimal","description":"Total Invoice Amount","example":"118000"}
+{"document":"Invoice","section":"","srl":12,"table":"fmsInvoice","field":"amountFCY","type":"decimal","description":"","example":""}
+{"document":"Invoice","section":"","srl":13,"table":"fmsInvoice","field":"basicAmount","type":"decimal","description":"Basic Amount","example":"100000"}
+{"document":"Invoice","section":"","srl":14,"table":"fmsInvoice","field":"gstIn","type":"String","description":"GST ID","example":"UNREGISTERED"}
+{"document":"Invoice","section":"","srl":15,"table":"fmsInvoice","field":"pos","type":"String","description":"POS","example":"19"}
+{"document":"Invoice","section":"","srl":16,"table":"fmsInvoice","field":"posStateId","type":"int","description":"POS State Id","example":"304"}
+{"document":"Invoice","section":"","srl":17,"table":"fmsInvoice","field":"posStateCode","type":"String","description":"POS State Code","example":"19"}
+{"document":"Invoice","section":"","srl":18,"table":"fmsInvoice","field":"posStateDescription","type":"String","description":"POS State Description","example":"WEST BENGAL"}
+{"document":"Invoice","section":"","srl":19,"table":"fmsInvoice","field":"narration","type":"String","description":"Invoice Narration","example":"Test"}
+{"document":"Invoice","section":"","srl":20,"table":"fmsInvoice","field":"invoiceCategory","type":"String","description":"Invoice Category","example":"RNBILL"}
+{"document":"Invoice","section":"","srl":21,"table":"fmsInvoice","field":"lpfAmount","type":"decimal","description":"LPF Total Amount","example":"168"}
+{"document":"Invoice","section":"","srl":22,"table":"fmsInvoice","field":"lpfBasic","type":"decimal","description":"LPF Basic Amount","example":"168"}
+{"document":"Invoice","section":"","srl":23,"table":"fmsInvoice","field":"lpfTax","type":"decimal","description":"LPF Tax Amount","example":"0"}
+{"document":"Invoice","section":"","srl":24,"table":"fmsInvoice","field":"kvaLoad","type":"String","description":"KVA Load","example":"10"}
+{"document":"Invoice","section":"","srl":25,"table":"fmsInvoice","field":"brandName","type":"String","description":"Brand Name","example":"Test"}
+{"document":"Invoice","section":"","srl":26,"table":"fmsInvoice","field":"dgLoad","type":"String","description":"DG Load","example":"10"}
+{"document":"Invoice","section":"","srl":27,"table":"fmsInvoice","field":"noticePeriod","type":"String","description":"Notce Period","example":"10"}
+{"document":"Invoice","section":"","srl":28,"table":"fmsInvoice","field":"buDesc","type":"String","description":"Business Unit Description","example":"FMS"}
+{"document":"Invoice","section":"","srl":29,"table":"fmsInvoice","field":"companyId","type":"int","description":"Company Id","example":"3"}
+{"document":"Invoice","section":"","srl":30,"table":"fmsInvoice","field":"ackNo","type":"String","description":"Acknolagement No","example":"0"}
+{"document":"Invoice","section":"","srl":31,"table":"fmsInvoice","field":"ewbNo","type":"int","description":"","example":"0"}
+{"document":"Invoice","section":"","srl":32,"table":"fmsInvoice","field":"irn","type":"String","description":"","example":""}
+{"document":"Invoice","section":"","srl":33,"table":"fmsInvoice","field":"signedInvoice","type":"String","description":"","example":""}
+{"document":"Invoice","section":"","srl":34,"table":"fmsInvoice","field":"signedInvoiceImg","type":"byte[]","description":"","example":""}
+{"document":"Invoice","section":"","srl":35,"table":"fmsInvoice","field":"signedQRCode","type":"String","description":"","example":""}
+{"document":"Invoice","section":"","srl":36,"table":"fmsInvoice","field":"signedQRCodeImg","type":"byte[]","description":"","example":""}
+{"document":"Invoice","section":"","srl":37,"table":"fmsInvoice","field":"status","type":"String","description":"","example":""}
+{"document":"Invoice","section":"","srl":38,"table":"fmsInvoice","field":"ewbValidTill","type":"DateTime","description":"","example":""}
+{"document":"Invoice","section":"","srl":39,"table":"fmsInvoice","field":"ewbDt","type":"DateTime","description":"","example":""}
+{"document":"Invoice","section":"","srl":40,"table":"fmsInvoice","field":"ackDt","type":"DateTime","description":"","example":""}
+{"document":"Invoice","section":"","srl":41,"table":"fmsInvoice","field":"unitArea","type":"decimal","description":"Unit Area for multi Unit","example":""}
+{"document":"Invoice","section":"","srl":42,"table":"invoiceDetailMMC/invoiceDetailList","field":"documentNo","type":"string","description":"Invoice Doc No","example":"FMS/00017/20-21"}
+{"document":"Invoice","section":"","srl":43,"table":"invoiceDetailMMC/invoiceDetailList","field":"dueDate","type":"Date Time","description":"Due Date","example":"2020-09-22T00:00:00"}
+{"document":"Invoice","section":"","srl":44,"table":"invoiceDetailMMC/invoiceDetailList","field":"amountLCY","type":"decimal","description":"Basic Amount Revenue Head Wise","example":"100000"}
+{"document":"Invoice","section":"","srl":45,"table":"invoiceDetailMMC/invoiceDetailList","field":"netamountLCY","type":"decimal","description":"Total Amount Revenue Head Wise","example":"118000"}
+{"document":"Invoice","section":"","srl":46,"table":"invoiceDetailMMC/invoiceDetailList","field":"rateLCY","type":"decimal","description":"Rate","example":""}
+{"document":"Invoice","section":"","srl":47,"table":"invoiceDetailMMC/invoiceDetailList","field":"periodFrom","type":"Date Time","description":"Invoice Period From","example":"2020-01-01T00:00:00"}
+{"document":"Invoice","section":"","srl":48,"table":"invoiceDetailMMC/invoiceDetailList","field":"periodTo","type":"Date Time","description":"Invoice Period To","example":"2020-01-31T00:00:00"}
+{"document":"Invoice","section":"","srl":49,"table":"invoiceDetailMMC/invoiceDetailList","field":"detailNarration","type":"string","description":"Revenue head wise Narration","example":"Test"}
+{"document":"Invoice","section":"","srl":50,"table":"invoiceDetailMMC/invoiceDetailList","field":"revenueHeadId","type":"int","description":"Revenue head Id","example":"3"}
+{"document":"Invoice","section":"","srl":51,"table":"invoiceDetailMMC/invoiceDetailList","field":"revenueHeadDescription","type":"string","description":"Revenue Head Desc","example":"Electricity Unit Basis"}
+{"document":"Invoice","section":"","srl":52,"table":"invoiceDetailMMC/invoiceDetailList","field":"revenueHeadAlternateDesc","type":"string","description":"Revenue Head Alternate","example":"Electricity Unit Basis"}
+{"document":"Invoice","section":"","srl":53,"table":"invoiceDetailMMC/invoiceDetailList","field":"hsn","type":"string","description":"Revenue Head - HSN","example":"EXMT-S|0.00"}
+{"document":"Invoice","section":"","srl":54,"table":"invoiceDetailMMC/invoiceDetailList","field":"hsnDescription","type":"string","description":"HSN Description","example":"0.00 | Exempted-Service | 01/07/2017"}
+{"document":"Invoice","section":"","srl":55,"table":"invoiceDetailMMC/invoiceDetailList","field":"particulars","type":"string","description":"Tax Description","example":"CGST@ 0, SGST@ 0"}
+{"document":"Invoice","section":"","srl":56,"table":"invoiceDetailMMC/invoiceDetailList","field":"previousUnit","type":"decimal","description":"Previous Reading","example":"0"}
+{"document":"Invoice","section":"","srl":57,"table":"invoiceDetailMMC/invoiceDetailList","field":"currentUnit","type":"decimal","description":"Current Reading","example":"100"}
+{"document":"Invoice","section":"","srl":58,"table":"invoiceDetailMMC/invoiceDetailList","field":"netUnit","type":"decimal","description":"Net Consumed Unit","example":"100"}
+{"document":"Invoice","section":"","srl":59,"table":"invoiceDetailMMC/invoiceDetailList","field":"taxableAmount","type":"decimal","description":"Taxable Amount","example":"100000"}
+{"document":"Invoice","section":"","srl":60,"table":"invoiceDetailMMC/invoiceDetailList","field":"taxAmount","type":"decimal","description":"Tax Amount","example":"18000"}
+{"document":"Invoice","section":"","srl":61,"table":"invoiceDetailMMC/invoiceDetailList","field":"consumedUnit","type":"decimal","description":"Consumed Unit","example":"100"}
+{"document":"Invoice","section":"","srl":62,"table":"invoiceDetailMMC/invoiceDetailList","field":"consumedRate","type":"decimal","description":"Rate","example":"7"}
+{"document":"Invoice","section":"","srl":63,"table":"invoiceDetailMMC/invoiceDetailList","field":"consumedAmount","type":"decimal","description":"Amount With Extra Charge","example":"100000"}
+{"document":"Invoice","section":"","srl":64,"table":"invoiceDetailMMC/invoiceDetailList","field":"mmcLoad","type":"string","description":"MMC Load","example":"10"}
+{"document":"Invoice","section":"","srl":65,"table":"invoiceDetailMMC/invoiceDetailList","field":"mmcRate","type":"decimal","description":"MMC Rare","example":"2"}
+{"document":"Invoice","section":"","srl":66,"table":"invoiceDetailMMC/invoiceDetailList","field":"mmcAmount","type":"decimal","description":"MMC Amount","example":"20"}
+{"document":"Invoice","section":"","srl":67,"table":"invoiceDetailMMC/invoiceDetailList","field":"ecloadval","type":"string","description":"EC Load/KVA Load","example":"10"}
+{"document":"Invoice","section":"","srl":68,"table":"invoiceDetailMMC/invoiceDetailList","field":"calculationModeId","type":"int","description":"Calculation Basis","example":"3004"}
+{"document":"Invoice","section":"","srl":69,"table":"invoiceDetailMMC/invoiceDetailList","field":"factorValue","type":"decimal","description":"Correction Factor","example":"1"}
+{"document":"Invoice","section":"","srl":null,"table":"invoiceDetailMMC/invoiceDetailList","field":"totalDepositAmount","type":"decimal","description":"Total Deposit against cuerrnt bill revenuehead","example":"11000"}
+{"document":"Invoice","section":"","srl":null,"table":"invoiceDetailMMC/invoiceDetailList","field":"totalPreviousBillAmount","type":"decimal","description":"Sum of previous bill amount of this booking and this revenue head","example":"(2,500+2,500+2,500)=7,500"}
+{"document":"Invoice","section":"","srl":null,"table":"invoiceDetailMMC/invoiceDetailList","field":"adjdepositamt","type":"decimal","description":"Current Bill opening Deposit","example":"(11,000-7,500)=3,500"}
+{"document":"Invoice","section":"","srl":70,"table":"businessUnit","field":"parentAddressLine1","type":"string","description":"Company Address 1","example":"Kasba"}
+{"document":"Invoice","section":"","srl":71,"table":"businessUnit","field":"parentAddressLine2","type":"string","description":"Company Address 2","example":"Ballygaunge"}
+{"document":"Invoice","section":"","srl":72,"table":"businessUnit","field":"parentAddressLine3","type":"string","description":"Company Address 3","example":""}
+{"document":"Invoice","section":"","srl":73,"table":"businessUnit","field":"parentAddressLine4","type":"string","description":"Company Address 4","example":""}
+{"document":"Invoice","section":"","srl":74,"table":"businessUnit","field":"parentCityDesc","type":"string","description":"Company City Name","example":"KOLKATA"}
+{"document":"Invoice","section":"","srl":75,"table":"businessUnit","field":"parentStateDesc","type":"string","description":"Company State Name","example":"WEST BENGAL"}
+{"document":"Invoice","section":"","srl":76,"table":"businessUnit","field":"parentZipCode","type":"string","description":"Company ZIP Code","example":"700012"}
+{"document":"Invoice","section":"","srl":77,"table":"businessUnit","field":"parentCountryDesc","type":"string","description":"Company Country","example":"India"}
+{"document":"Invoice","section":"","srl":78,"table":"businessUnit","field":"parentEmail","type":"string","description":"Company Email","example":"fms@gmail.com"}
+{"document":"Invoice","section":"","srl":79,"table":"businessUnit","field":"parentPhone","type":"string","description":"Company Phone","example":"-9856321379"}
+{"document":"Invoice","section":"","srl":80,"table":"businessUnit","field":"parentMobile","type":"string","description":"Company Mobile","example":""}
+{"document":"Invoice","section":"","srl":81,"table":"businessUnit","field":"buFullAddress","type":"string","description":"BU Full Address","example":"Kasba,Gariahut,,,KOLKATA,WEST BENGAL,INDIA PIN Code: 700014"}
+{"document":"Invoice","section":"","srl":82,"table":"businessUnit","field":"phone1","type":"string","description":"BU phone","example":"-9632587319"}
+{"document":"Invoice","section":"","srl":83,"table":"businessUnit","field":"email1","type":"string","description":"Bu Email","example":"arnab.rab007@gmail.com"}
+{"document":"Invoice","section":"","srl":84,"table":"businessUnit","field":"parentDesc","type":"string","description":"Company Name","example":"FMS"}
+{"document":"Invoice","section":"","srl":85,"table":"businessUnit","field":"description","type":"string","description":"BU Name","example":"PMS"}
+{"document":"Invoice","section":"","srl":86,"table":"businessUnit","field":"addresses_line1","type":"string","description":"BU Address 1","example":"Kasba"}
+{"document":"Invoice","section":"","srl":87,"table":"businessUnit","field":"addresses_line2","type":"string","description":"BU Address 2","example":"KOLKATA"}
+{"document":"Invoice","section":"","srl":88,"table":"businessUnit","field":"addresses_line3","type":"string","description":"BU Address 3","example":""}
+{"document":"Invoice","section":"","srl":89,"table":"businessUnit","field":"addresses_line4","type":"string","description":"BU Address 4","example":""}
+{"document":"Invoice","section":"","srl":90,"table":"businessUnit","field":"buCity","type":"","description":"BU City","example":"KOLKATA"}
+{"document":"Invoice","section":"","srl":91,"table":"businessUnit","field":"buState","type":"string","description":"BU State","example":"WEST BENGAL"}
+{"document":"Invoice","section":"","srl":92,"table":"businessUnit","field":"addresses_zipCode","type":"string","description":"BU Zip Code","example":"700016"}
+{"document":"Invoice","section":"","srl":93,"table":"businessUnit","field":"buCountry","type":"string","description":"Bu Country","example":"India"}
+{"document":"Invoice","section":"","srl":94,"table":"businessUnit","field":"buStateCode","type":"string","description":"Bu State Code","example":"32"}
+{"document":"Invoice","section":"","srl":95,"table":"unitDetail","field":"code","type":"string","description":"Unit Code","example":"FMS:103"}
+{"document":"Invoice","section":"","srl":96,"table":"unitDetail","field":"area","type":"decimal","description":"Area","example":"4250"}
+{"document":"Invoice","section":"","srl":97,"table":"unitDetail","field":"uom","type":"string","description":"Unit Of Mesurement","example":"Sq. Feet"}
+{"document":"Invoice","section":"","srl":98,"table":"unitDetail","field":"area1","type":"decimal","description":"Super Buit Up Area","example":"4250"}
+{"document":"Invoice","section":"","srl":99,"table":"unitDetail","field":"area2","type":"decimal","description":"Built Up Area","example":"4250"}
+{"document":"Invoice","section":"","srl":100,"table":"unitDetail","field":"area3","type":"decimal","description":"Carpet Area","example":"4250"}
+{"document":"Invoice","section":"","srl":101,"table":"unitDetail","field":"area4","type":"decimal","description":"Chargeable","example":"4250"}
+{"document":"Invoice","section":"","srl":102,"table":"unitDetail","field":"floorNo","type":"string","description":"Floor No","example":"Floor 0"}
+{"document":"Invoice","section":"","srl":103,"table":"bankInfo","field":"ifsCode","type":"string","description":"Bank IFSC Code","example":"SBI00123"}
+{"document":"Invoice","section":"","srl":104,"table":"bankInfo","field":"beneficiaryName","type":"string","description":"Bank beneficiary Name","example":"SBI"}
+{"document":"Invoice","section":"","srl":105,"table":"bankInfo","field":"accountNo","type":"string","description":"Account No","example":"12345"}
+{"document":"Invoice","section":"","srl":106,"table":"bankInfo","field":"printName","type":"string","description":"Print Name","example":"State Bank Of India"}
+{"document":"Invoice","section":"","srl":107,"table":"bankInfo","field":"bankName","type":"string","description":"Bank Name","example":"State Bank Of India"}
+{"document":"Invoice","section":"","srl":108,"table":"bankInfo","field":"bankAddress","type":"string","description":"Bank Address","example":"Jadavpur,,,KOLKATA,WEST BENGAL,INDIA PIN Code: 700024"}
+{"document":"Invoice","section":"","srl":109,"table":"customer","field":"code","type":"string","description":"Customer Code","example":"PMS/FMS/21"}
+{"document":"Invoice","section":"","srl":110,"table":"customer","field":"fullName","type":"string","description":"Customer Full Name","example":"Mrs. Dona Bakshi"}
+{"document":"Invoice","section":"","srl":111,"table":"customer","field":"oldEmail","type":"string","description":"Customer Email","example":"test@gmail.com"}
+{"document":"Invoice","section":"","srl":112,"table":"customer","field":"mobile","type":"string","description":"Customer Mobile","example":"9874563210"}
+{"document":"Invoice","section":"","srl":113,"table":"customer","field":"salutation","type":"string","description":"Customer Salutation","example":"Mrs."}
+{"document":"Invoice","section":"","srl":114,"table":"customer","field":"firstName","type":"string","description":"Customer First Name","example":"Dona"}
+{"document":"Invoice","section":"","srl":115,"table":"customer","field":"middleName","type":"string","description":"Customer Middle Name","example":""}
+{"document":"Invoice","section":"","srl":116,"table":"customer","field":"lastName","type":"string","description":"Customer Last Name","example":"Bakshi"}
+{"document":"Invoice","section":"","srl":117,"table":"customer","field":"description","type":"string","description":"Customer Full Name","example":"Mrs. Dona Bakshi"}
+{"document":"Invoice","section":"","srl":118,"table":"customer","field":"address","type":"string","description":"Customer Address","example":"Jadavpur,,,KOLKATA,WEST BENGAL,INDIA PIN Code: 700024"}
+{"document":"Invoice","section":"","srl":119,"table":"customer","field":"pan","type":"string","description":"Customer PAN","example":"NOTAPPLICABLE"}
+{"document":"Invoice","section":"","srl":120,"table":"customer","field":"applicationNo","type":"string","description":"Application No","example":"JGERAPP/00017/19-20"}
+{"document":"Invoice","section":"","srl":121,"table":"customer","field":"gstin","type":"string","description":"Customer GST IN","example":"UNREGISTERED"}
+{"document":"Invoice","section":"","srl":122,"table":"customer","field":"sateDescripion","type":"string","description":"POS State Description","example":"WEST BENGAL"}
+{"document":"Invoice","section":"","srl":123,"table":"customer","field":"customerStateDescription","type":"string","description":"Customer State","example":"WEST BENGAL"}
+{"document":"Invoice","section":"","srl":124,"table":"customer","field":"customerStateCode","type":"string","description":"Customer State Come","example":"19"}
+{"document":"Invoice","section":"","srl":125,"table":"reportFooterTemplate","field":"body","type":"string","description":"Report Footer Template Description","example":""}
+{"document":"Invoice","section":"","srl":126,"table":"meterReading","field":"revenueHeadId","type":"a","description":"Revenue Head Id","example":"3"}
+{"document":"Invoice","section":"","srl":127,"table":"meterReading","field":"revenueHeadDescription","type":"string","description":"Revenue Name","example":"Electricity Unit Basis"}
+{"document":"Invoice","section":"","srl":128,"table":"meterReading","field":"documentNo","type":"string","description":"Invoice No","example":"FMS/00017/20-21"}
+{"document":"Invoice","section":"","srl":129,"table":"meterReading","field":"meterNo","type":"string","description":"Meter No","example":"JGE103"}
+{"document":"Invoice","section":"","srl":130,"table":"meterReading","field":"periodFrom","type":"DateTime","description":"Period From","example":"2020-01-01T05:30:00"}
+{"document":"Invoice","section":"","srl":131,"table":"meterReading","field":"periodTo","type":"DateTime","description":"Period To","example":"2020-01-31T05:30:00"}
+{"document":"Invoice","section":"","srl":132,"table":"meterReading","field":"rateLCY","type":"decimal","description":"Rate","example":"7"}
+{"document":"Invoice","section":"","srl":133,"table":"meterReading","field":"previousUnit","type":"decimal","description":"Previous Reading","example":"0"}
+{"document":"Invoice","section":"","srl":134,"table":"meterReading","field":"currentUnit","type":"decimal","description":"Current Reading","example":"100"}
+{"document":"Invoice","section":"","srl":135,"table":"meterReading","field":"netUnit","type":"decimal","description":"Net Reading","example":"100"}
+{"document":"Invoice","section":"","srl":136,"table":"meterReading","field":"amountLCY","type":"decimal","description":"Total Amount including extra Charge","example":"100000"}
+{"document":"Invoice","section":"","srl":137,"table":"meterReading","field":"factorValue","type":"decimal","description":"Correction Factor","example":"1"}
+{"document":"Invoice","section":"","srl":138,"table":"electricityExtraCharge","field":"revenueHeadId","type":"int","description":"Extra Charge Revenue Head Id","example":"17"}
+{"document":"Invoice","section":"","srl":139,"table":"electricityExtraCharge","field":"revenueHeadDescription","type":"string","description":"Extra Charge Revenue Head Desc","example":"Transmission Loss"}
+{"document":"Invoice","section":"","srl":140,"table":"electricityExtraCharge","field":"documentNo","type":"string","description":"Invoice No","example":"FMS/00017/20-21"}
+{"document":"Invoice","section":"","srl":141,"table":"electricityExtraCharge","field":"rateLCY","type":"decimal","description":"Rate","example":"0"}
+{"document":"Invoice","section":"","srl":142,"table":"electricityExtraCharge","field":"meterNo","type":"string","description":"Meter No","example":"1"}
+{"document":"Invoice","section":"","srl":143,"table":"electricityExtraCharge","field":"previousUnit","type":"decimal","description":"Previous  Unit","example":"Always 0"}
+{"document":"Invoice","section":"","srl":144,"table":"electricityExtraCharge","field":"currentUnit","type":"decimal","description":"Reading","example":"100"}
+{"document":"Invoice","section":"","srl":145,"table":"electricityExtraCharge","field":"netUnit","type":"decimal","description":"Reading","example":"100"}
+{"document":"Invoice","section":"","srl":146,"table":"electricityExtraCharge","field":"amountLCY","type":"decimal","description":"Amount","example":"100"}
+{"document":"Invoice","section":"","srl":147,"table":"outstandingInvoiceDetail","field":"revenueHeadId","type":"int","description":"","example":""}
+{"document":"Invoice","section":"","srl":148,"table":"outstandingInvoiceDetail","field":"balanceAmtLCY","type":"decimal","description":"Out Standing Amount As on Invoice Date","example":"Use sum of balanceAmtLCY then substract current invoice amount"}
+{"document":"Invoice","section":"","srl":149,"table":"outstandingInvoiceDetail","field":"amountLCY","type":"decimal","description":"","example":""}
+{"document":"Invoice","section":"","srl":150,"table":"outstandingInvoiceDetail","field":"adjustedAmtLCY","type":"decimal","description":"","example":""}
+{"document":"Invoice","section":"","srl":151,"table":"outstandingInvoiceDetail","field":"invoiceNo","type":"string","description":"","example":""}
+{"document":"Invoice","section":"","srl":152,"table":"businessunitExtrainfo","field":"this are dynamic field","type":"","description":"","example":""}
+{"document":"Invoice","section":"","srl":153,"table":"companyExtraInfo","field":"this are dynamic field","type":"","description":"","example":""}
+{"document":"Invoice","section":"","srl":154,"table":"buLogo","field":"logoData","type":"byte[]","description":"Bu Logo","example":""}
+{"document":"Invoice","section":"","srl":155,"table":"compLogo","field":"logoData","type":"byte[]","description":"Company Logo","example":""}
+{"document":"Invoice","section":"","srl":156,"table":"billingTerms","field":"amountLCY","type":"decimal","description":"Tax Amount","example":"1000"}
+{"document":"Invoice","section":"","srl":157,"table":"billingTerms","field":"chargeDescription","type":"string","description":"Tax Name","example":"CGST/SGST/IGST"}
+{"document":"Invoice","section":"","srl":158,"table":"billingTerms","field":"percentage","type":"decimal","description":"Tax Percentage","example":"9"}
+{"document":"Invoice","section":"","srl":159,"table":"monthlySaleInputDetail","field":"revenueHead","type":"string","description":"Revenu Head Name","example":""}
+{"document":"Invoice","section":"","srl":160,"table":"monthlySaleInputDetail","field":"billAmt","type":"decimal","description":"Bill Amount","example":""}
+{"document":"Invoice","section":"","srl":161,"table":"monthlySaleInputDetail","field":"netSale","type":"decimal","description":"Net Sale","example":""}
+{"document":"Invoice","section":"","srl":162,"table":"monthlySaleInputDetail","field":"diffAmt","type":"decimal","description":"Diff Amount","example":""}
+{"document":"Invoice","section":"","srl":163,"table":"monthlySaleInputDetail","field":"saleValue","type":"decimal","description":"Sale Value","example":""}
+{"document":"Invoice","section":"","srl":164,"table":"monthlySaleInputDetail","field":"salePer","type":"decimal","description":"Sale Per","example":""}
+{"document":"Invoice","section":"","srl":165,"table":"monthlySaleInputDetail","field":"period","type":"DateTime","description":"Period","example":""}
+{"document":"Invoice","section":"","srl":166,"table":"monthlySaleInputDetailAgrWise","field":"revenueHead","type":"string","description":"Revenu Head Name","example":""}
+{"document":"Invoice","section":"","srl":167,"table":"monthlySaleInputDetailAgrWise","field":"billAmt","type":"decimal","description":"Bill Amount","example":""}
+{"document":"Invoice","section":"","srl":168,"table":"monthlySaleInputDetailAgrWise","field":"saleValue","type":"decimal","description":"Sale Value","example":""}
+{"document":"Invoice","section":"","srl":169,"table":"monthlySaleInputDetailAgrWise","field":"saleDetails","type":"string","description":"Sale Details","example":""}
+{"document":"Invoice","section":"","srl":170,"table":"monthlySaleInputDetailAgrWise","field":"salePer","type":"decimal","description":"Sale Per","example":""}
+{"document":"Invoice","section":"","srl":171,"table":"monthlySaleInputDetailAgrWise","field":"slabDetails","type":"string","description":"SlabDetails","example":""}
+{"document":"Invoice","section":"","srl":172,"table":"monthlySaleInputDetailAgrWise","field":"netSale","type":"decimal","description":"Net Sale","example":""}
+{"document":"Invoice","section":"","srl":173,"table":"monthlySaleInputDetailAgrWise","field":"diffAmt","type":"decimal","description":"Diff Amount","example":""}
+{"document":"Invoice","section":"","srl":174,"table":"monthlySaleInputDetailAgrWise","field":"period","type":"string","description":"Period","example":""}
+{"document":"Receipt","section":"","srl":1,"table":"fmsReceipt","field":"paymentMode","type":"int","description":"Lookup value. For display please user Payment Mode variable.","example":"13004"}
+{"document":"Receipt","section":"","srl":2,"table":"fmsReceipt","field":"instrumentNo","type":"string","description":"Instrument No","example":""}
+{"document":"Receipt","section":"","srl":3,"table":"fmsReceipt","field":"instrumentDate","type":"datetime","description":"Instrument Date","example":""}
+{"document":"Receipt","section":"","srl":4,"table":"fmsReceipt","field":"drawnOn","type":"string","description":"Drawn On","example":""}
+{"document":"Receipt","section":"","srl":5,"table":"fmsReceipt","field":"drawnOnBranch","type":"string","description":"Branch Name","example":""}
+{"document":"Receipt","section":"","srl":6,"table":"fmsReceipt","field":"amountLCY","type":"decimal","description":"Receipt Amount","example":"10000"}
+{"document":"Receipt","section":"","srl":7,"table":"fmsReceipt","field":"challanNo","type":"string","description":"Challan No for TDS","example":""}
+{"document":"Receipt","section":"","srl":8,"table":"fmsReceipt","field":"assesmentYear","type":"string","description":"Assesment Year for TDS","example":""}
+{"document":"Receipt","section":"","srl":9,"table":"fmsReceipt","field":"form16BNo","type":"string","description":"Form 16B for TDS","example":""}
+{"document":"Receipt","section":"","srl":10,"table":"fmsReceipt","field":"acknowledgementNo","type":"string","description":"Acknowledgement No for TDS","example":""}
+{"document":"Receipt","section":"","srl":11,"table":"fmsReceipt","field":"customerName","type":"string","description":"Customer Name","example":"Dr. Sourav Kumar Das"}
+{"document":"Receipt","section":"","srl":12,"table":"fmsReceipt","field":"unitCodes","type":"string","description":"Unit Description.","example":""}
+{"document":"Receipt","section":"","srl":13,"table":"fmsReceipt","field":"pos","type":"string","description":"POS","example":""}
+{"document":"Receipt","section":"","srl":14,"table":"fmsReceipt","field":"posStateDescription","type":"string","description":"POS State Description","example":""}
+{"document":"Receipt","section":"","srl":15,"table":"fmsReceipt","field":"pan","type":"string","description":"Customer Pan","example":""}
+{"document":"Receipt","section":"","srl":16,"table":"fmsReceipt","field":"documentNo","type":"string","description":"Receipt No","example":"RNPDC/0001/20-21"}
+{"document":"Receipt","section":"","srl":17,"table":"fmsReceipt","field":"documentDate","type":"datetime","description":"Receipt Date","example":"2020-01-01T00:00:00"}
+{"document":"Receipt","section":"","srl":18,"table":"fmsReceipt","field":"bookingId_documentNo","type":"string","description":"BookingNo","example":"JGERNAG/00017/19-20"}
+{"document":"Receipt","section":"","srl":19,"table":"fmsReceipt","field":"applicationId_documentNo","type":"string","description":"Application DocNo","example":"JGERAPP/00017/19-20"}
+{"document":"Receipt","section":"","srl":20,"table":"fmsReceipt","field":"debitLedgerId_description","type":"string","description":"Debit Ledger Description","example":"CASH IN BANK"}
+{"document":"Receipt","section":"","srl":21,"table":"applicant","field":"fullName","type":"string","description":"Customer Full Name","example":"Mrs. Dona Bakshi"}
+{"document":"Receipt","section":"","srl":22,"table":"applicant","field":"code","type":"string","description":"Customer Code","example":"PMS/FMS/21"}
+{"document":"Receipt","section":"","srl":null,"table":"applicant","field":"mobile","type":"string","description":"Customer Mobile No","example":"9876543110"}
+{"document":"Receipt","section":"","srl":null,"table":"applicant","field":"oldEmail","type":"string","description":"Customer Email","example":"test@gmail.com"}
+{"document":"Receipt","section":"","srl":23,"table":"receiptDetail","field":"unitNo","type":"string","description":"Unit no","example":"FMS:103"}
+{"document":"Receipt","section":"","srl":24,"table":"receiptDetail","field":"billType","type":"string","description":"Bill Type","example":"B or O"}
+{"document":"Receipt","section":"","srl":25,"table":"receiptDetail","field":"revenueHead","type":"string","description":"Revenue Head Desc","example":"FMS ACTUAL"}
+{"document":"Receipt","section":"","srl":26,"table":"receiptDetail","field":"amountLCY","type":"decimal","description":"Bill Wise adjusted Amount","example":"10000"}
+{"document":"Receipt","section":"","srl":27,"table":"receiptDetail","field":"invoice_documentNo","type":"string","description":"Adjusted Invoice Doc No","example":"ACT/00010/20-21"}
+{"document":"Receipt","section":"","srl":28,"table":"receiptDetail","field":"invoice_documentDate","type":"datetime","description":"Adjusted Invoice DocDT","example":"2020-09-01T00:00:00"}
+{"document":"Receipt","section":"","srl":29,"table":"businessUnit","field":"parentAddressLine1","type":"string","description":"Company Address 1","example":"Kasba"}
+{"document":"Receipt","section":"","srl":30,"table":"businessUnit","field":"parentAddressLine2","type":"string","description":"Company Address 2","example":"Ballygaunge"}
+{"document":"Receipt","section":"","srl":31,"table":"businessUnit","field":"parentAddressLine3","type":"string","description":"Company Address 3","example":""}
+{"document":"Receipt","section":"","srl":32,"table":"businessUnit","field":"parentCityDesc","type":"string","description":"Company City Name","example":"KOLKATA"}
+{"document":"Receipt","section":"","srl":33,"table":"businessUnit","field":"parentStateDesc","type":"string","description":"Company State Name","example":"WEST BENGAL"}
+{"document":"Receipt","section":"","srl":34,"table":"businessUnit","field":"parentZipCode","type":"string","description":"Company ZIP Code","example":"700012"}
+{"document":"Receipt","section":"","srl":35,"table":"businessUnit","field":"parentCountryDesc","type":"string","description":"Company Country","example":"India"}
+{"document":"Receipt","section":"","srl":36,"table":"businessUnit","field":"buFullAddress","type":"string","description":"BU Full Address","example":"Kasba,Gariahut,,,KOLKATA,WEST BENGAL,INDIA PIN Code: 700014"}
+{"document":"Receipt","section":"","srl":37,"table":"businessUnit","field":"phone1","type":"string","description":"BU phone","example":"-9632587319"}
+{"document":"Receipt","section":"","srl":38,"table":"businessUnit","field":"email1","type":"string","description":"Bu Email","example":"arnab.rab007@gmail.com"}
+{"document":"Receipt","section":"","srl":39,"table":"businessUnit","field":"parentDesc","type":"string","description":"Company Name","example":"FMS"}
+{"document":"Receipt","section":"","srl":40,"table":"businessUnit","field":"description","type":"string","description":"BU Name","example":"PMS"}
+{"document":"Receipt","section":"","srl":41,"table":"businessUnit","field":"cityDesc","type":"string","description":"BU City","example":"KOLKATA"}
+{"document":"Receipt","section":"","srl":42,"table":"businessUnit","field":"stateDesc","type":"string","description":"BU State","example":"WEST BENGAL"}
+{"document":"Receipt","section":"","srl":43,"table":"businessUnit","field":"countryDesc","type":"string","description":"Bu Country","example":"India"}
+{"document":"Receipt","section":"","srl":44,"table":"UnitDetail","field":"code","type":"string","description":"Unit Code","example":"FMS:103"}
+{"document":"Receipt","section":"","srl":45,"table":"UnitDetail","field":"area","type":"decimal","description":"Area","example":"4250"}
+{"document":"Receipt","section":"","srl":46,"table":"UnitDetail","field":"area1","type":"decimal","description":"Super Buit Up Area","example":"4250"}
+{"document":"Receipt","section":"","srl":47,"table":"UnitDetail","field":"area2","type":"decimal","description":"Built Up Area","example":"4250"}
+{"document":"Receipt","section":"","srl":48,"table":"UnitDetail","field":"area3","type":"decimal","description":"Carpet Area","example":"4250"}
+{"document":"Receipt","section":"","srl":49,"table":"UnitDetail","field":"area4","type":"decimal","description":"Chargeable","example":"4250"}
+{"document":"Receipt","section":"","srl":50,"table":"Address","field":"line1","type":"string","description":"Customer Address Line 1","example":"Kasba"}
+{"document":"Receipt","section":"","srl":51,"table":"Address","field":"line2","type":"string","description":"Customer Address Line 2","example":"KOLKATA"}
+{"document":"Receipt","section":"","srl":52,"table":"Address","field":"line3","type":"string","description":"Customer Address Line 3","example":""}
+{"document":"Receipt","section":"","srl":53,"table":"Address","field":"line4","type":"string","description":"Customer Address Line 4","example":""}
+{"document":"Receipt","section":"","srl":54,"table":"Address","field":"countryDesc","type":"string","description":"Customer Country","example":"India"}
+{"document":"Receipt","section":"","srl":55,"table":"Address","field":"zipCode","type":"int","description":"Customer PIN","example":"700016"}
+{"document":"Receipt","section":"","srl":56,"table":"Address","field":"stateDesc","type":"string","description":"Customer State","example":"WEST BENGAL"}
+{"document":"Receipt","section":"","srl":57,"table":"Address","field":"cityDesc","type":"string","description":"Customer City","example":"KOLKATA"}
+{"document":"Receipt","section":"","srl":58,"table":"reportFooterTemplate","field":"body","type":"string","description":"Report Footer Template Description","example":""}
+{"document":"Receipt","section":"","srl":59,"table":"businessunitExtrainfo","field":"this are dynamic field","type":"","description":"","example":""}
+{"document":"Receipt","section":"","srl":60,"table":"companyExtraInfo","field":"this are dynamic field","type":"","description":"","example":""}
+{"document":"Receipt","section":"","srl":61,"table":"buLogo","field":"logoData","type":"byte[]","description":"","example":""}
+{"document":"Receipt","section":"Customer Statement","srl":1,"table":"fmsCustomerStatementofAccount","field":"ledger","type":"string","description":"Ledger Desc","example":"[FMS:108]-[JGE]-Dr. Sourav Kumar Das"}
+{"document":"Receipt","section":"Customer Statement","srl":2,"table":"fmsCustomerStatementofAccount","field":"documentDate","type":"datetime","description":"Document Date","example":"2020-03-31T00:00:00"}
+{"document":"Receipt","section":"Customer Statement","srl":3,"table":"fmsCustomerStatementofAccount","field":"narration","type":"string","description":"Narration","example":""}
+{"document":"Receipt","section":"Customer Statement","srl":4,"table":"fmsCustomerStatementofAccount","field":"voucherType","type":"string","description":"Voucher Type","example":"RENTAL BILL / RENTAL CREDIT NOTE / RECEIPT PAYMENT (RENTAL)"}
+{"document":"Receipt","section":"Customer Statement","srl":5,"table":"fmsCustomerStatementofAccount","field":"voucherNo","type":"string","description":"","example":"FMS/00010/20-21"}
+{"document":"Receipt","section":"Customer Statement","srl":6,"table":"fmsCustomerStatementofAccount","field":"debitAmount","type":"decimal","description":"Debit For Invoice","example":""}
+{"document":"Receipt","section":"Customer Statement","srl":7,"table":"fmsCustomerStatementofAccount","field":"creditAmount","type":"decimal","description":"Credit for CR note/ Receipt","example":""}
+{"document":"Receipt","section":"Customer Statement","srl":8,"table":"fmsCustomerStatementofAccount","field":"balanceAmount","type":"decimal","description":"Balance Amount","example":""}
+{"document":"Credit Note","section":"","srl":1,"table":"creditNote","field":"amountLCY","type":"decimal","description":"Total Amount","example":"1180"}
+{"document":"Credit Note","section":"","srl":2,"table":"creditNote","field":"basicAmount","type":"decimal","description":"Basic Amount","example":"1000"}
+{"document":"Credit Note","section":"","srl":3,"table":"creditNote","field":"pos","type":"string","description":"POS","example":"19"}
+{"document":"Credit Note","section":"","srl":4,"table":"creditNote","field":"narration","type":"string","description":"Narration","example":""}
+{"document":"Credit Note","section":"","srl":5,"table":"creditNote","field":"creditNoteType","type":"int","description":"1 for reversal/0 for Cr Note","example":"1"}
+{"document":"Credit Note","section":"","srl":6,"table":"creditNote","field":"partyGSTIN","type":"string","description":"Customer GSTIN","example":"UNREGISTERED"}
+{"document":"Credit Note","section":"","srl":7,"table":"creditNote","field":"brandName","type":"string","description":"Brand Name","example":"TEST UNIT"}
+{"document":"Credit Note","section":"","srl":8,"table":"creditNote","field":"unitCode","type":"string","description":"Unit Code","example":"FMS:103"}
+{"document":"Credit Note","section":"","srl":9,"table":"creditNote","field":"documentNo","type":"string","description":"Credit Note No","example":"RTCRN/0001/20-21"}
+{"document":"Credit Note","section":"","srl":10,"table":"creditNote","field":"documentDate","type":"datetime","description":"CRedit Note Date","example":"2020-10-06T00:00:00"}
+{"document":"Credit Note","section":"","srl":11,"table":"creditNote","field":"booking_bookingApplicationDocNo","type":"string","description":"Application No","example":"JGERAPP/00017/19-20"}
+{"document":"Credit Note","section":"","srl":12,"table":"creditNote","field":"booking_documentNo","type":"string","description":"Booking No","example":"JGERNAG/00017/19-20"}
+{"document":"Credit Note","section":"","srl":13,"table":"creditNote","field":"irn","type":"String","description":"","example":""}
+{"document":"Credit Note","section":"","srl":14,"table":"creditNote","field":"signedInvoice","type":"String","description":"","example":""}
+{"document":"Credit Note","section":"","srl":15,"table":"creditNote","field":"signedInvoiceImg","type":"byte[]","description":"","example":""}
+{"document":"Credit Note","section":"","srl":16,"table":"creditNote","field":"signedQRCode","type":"String","description":"","example":""}
+{"document":"Credit Note","section":"","srl":17,"table":"creditNote","field":"signedQRCodeImg","type":"byte[]","description":"","example":""}
+{"document":"Credit Note","section":"","srl":18,"table":"creditNoteDetail","field":"amountLCY","type":"decimal","description":"Invoice Wise Basic","example":"1000"}
+{"document":"Credit Note","section":"","srl":19,"table":"creditNoteDetail","field":"thisReversalLCY","type":"decimal","description":"Invoice Wise Basic","example":"1000"}
+{"document":"Credit Note","section":"","srl":20,"table":"creditNoteDetail","field":"netThisReversalLCY","type":"decimal","description":"invoice Wise Total Amount","example":"1180"}
+{"document":"Credit Note","section":"","srl":21,"table":"creditNoteDetail","field":"invoiceNo","type":"string","description":"Invoice No","example":"FMS/00017/20-21"}
+{"document":"Credit Note","section":"","srl":22,"table":"creditNoteDetail","field":"invoiceDate","type":"datetime","description":"InvoiceDate","example":"2020-09-15T00:00:00"}
+{"document":"Credit Note","section":"","srl":23,"table":"creditNoteDetail","field":"alternaterevenueHeadDescription","type":"string","description":"Revenue Head Alternate Desc","example":"CAM Area Basis"}
+{"document":"Credit Note","section":"","srl":24,"table":"creditNoteDetail","field":"revenueHead_hsn","type":"string","description":"Revenue Head HSN","example":"EXMT-S|0.00"}
+{"document":"Credit Note","section":"","srl":25,"table":"creditNoteDetail","field":"creditNoteDetail","type":"creditNoteDetail","description":"creditNoteDetail","example":"0.00 | Exempted-Service | 01/07/2017"}
+{"document":"Credit Note","section":"","srl":26,"table":"creditNoteDetail","field":"revenueHead_description","type":"string","description":"Revenue Head Desc","example":"CAM Area Basis"}
+{"document":"Credit Note","section":"","srl":27,"table":"businessUnit","field":"parentAddressLine1","type":"string","description":"Company Address 1","example":"Kasba"}
+{"document":"Credit Note","section":"","srl":28,"table":"businessUnit","field":"parentAddressLine2","type":"string","description":"Company Address 2","example":"Ballygaunge"}
+{"document":"Credit Note","section":"","srl":29,"table":"businessUnit","field":"parentAddressLine3","type":"string","description":"Company Address 3","example":""}
+{"document":"Credit Note","section":"","srl":30,"table":"businessUnit","field":"parentCityDesc","type":"string","description":"Company City Name","example":"KOLKATA"}
+{"document":"Credit Note","section":"","srl":31,"table":"businessUnit","field":"parentStateDesc","type":"string","description":"Company State Name","example":"WEST BENGAL"}
+{"document":"Credit Note","section":"","srl":32,"table":"businessUnit","field":"parentZipCode","type":"string","description":"Company ZIP Code","example":"700012"}
+{"document":"Credit Note","section":"","srl":33,"table":"businessUnit","field":"parentCountryDesc","type":"string","description":"Company Country","example":"India"}
+{"document":"Credit Note","section":"","srl":34,"table":"businessUnit","field":"buFullAddress","type":"string","description":"BU Full Address","example":"Kasba,Gariahut,,,KOLKATA,WEST BENGAL,INDIA PIN Code: 700014"}
+{"document":"Credit Note","section":"","srl":35,"table":"businessUnit","field":"phone1","type":"string","description":"BU phone","example":"-9632587319"}
+{"document":"Credit Note","section":"","srl":36,"table":"businessUnit","field":"email1","type":"string","description":"Bu Email","example":"arnab.rab007@gmail.com"}
+{"document":"Credit Note","section":"","srl":37,"table":"businessUnit","field":"parentDesc","type":"string","description":"Company Name","example":"FMS"}
+{"document":"Credit Note","section":"","srl":38,"table":"businessUnit","field":"description","type":"string","description":"BU Name","example":"PMS"}
+{"document":"Credit Note","section":"","srl":39,"table":"businessUnit","field":"cityDesc","type":"string","description":"BU City","example":"KOLKATA"}
+{"document":"Credit Note","section":"","srl":40,"table":"businessUnit","field":"stateDesc","type":"string","description":"BU State","example":"WEST BENGAL"}
+{"document":"Credit Note","section":"","srl":41,"table":"businessUnit","field":"countryDesc","type":"string","description":"Bu Country","example":"India"}
+{"document":"Credit Note","section":"","srl":42,"table":"UnitDetail","field":"code","type":"string","description":"Unit Code","example":"FMS:103"}
+{"document":"Credit Note","section":"","srl":43,"table":"UnitDetail","field":"area","type":"decimal","description":"Area","example":"4250"}
+{"document":"Credit Note","section":"","srl":44,"table":"UnitDetail","field":"area1","type":"decimal","description":"Super Buit Up Area","example":"4250"}
+{"document":"Credit Note","section":"","srl":45,"table":"UnitDetail","field":"area2","type":"decimal","description":"Built Up Area","example":"4250"}
+{"document":"Credit Note","section":"","srl":46,"table":"UnitDetail","field":"area3","type":"decimal","description":"Carpet Area","example":"4250"}
+{"document":"Credit Note","section":"","srl":47,"table":"UnitDetail","field":"area4","type":"decimal","description":"Chargeable","example":"4250"}
+{"document":"Credit Note","section":"","srl":48,"table":"businessunitExtrainfo","field":"this are dynamic field","type":"","description":"","example":""}
+{"document":"Credit Note","section":"","srl":49,"table":"companyExtraInfo","field":"this are dynamic field","type":"","description":"","example":""}
+{"document":"Credit Note","section":"","srl":50,"table":"buLogo","field":"logoData","type":"byte[]","description":"","example":""}
+{"document":"Credit Note","section":"","srl":51,"table":"reportFooterTemplate","field":"body","type":"string","description":"Report Footer Template Description","example":""}
+{"document":"Credit Note","section":"","srl":52,"table":"BillingTerms","field":"amountLCY","type":"decimal","description":"Tax Amount","example":"1000"}
+{"document":"Credit Note","section":"","srl":53,"table":"BillingTerms","field":"chargeDescription","type":"string","description":"Tax Name","example":"CGST/SGST/IGST"}
+{"document":"Credit Note","section":"","srl":54,"table":"BillingTerms","field":"percentage","type":"decimal","description":"Tax Percentage","example":"9"}
+{"document":"Credit Note","section":"","srl":55,"table":"customer","field":"address","type":"string","description":"Customer Address","example":"Jewish House   INDIA MAHARASHTRA MUMBAI 700071"}
+{"document":"Credit Note","section":"","srl":56,"table":"customer","field":"mobile","type":"string","description":"Customer Mobile","example":"-9632587319"}
+{"document":"Credit Note","section":"","srl":57,"table":"customer","field":"oldEmail","type":"string","description":"Customer Email","example":"test@gmail.com"}
+{"document":"Credit Note","section":"","srl":58,"table":"customer","field":"udF_16","type":"string","description":"Customer Pan","example":"EUNKP3948W"}
+{"document":"Credit Note","section":"","srl":59,"table":"customer","field":"description","type":"string","description":"Customer Name","example":"Mr Rahul Pandey"}
+{"document":"Booking","section":"","srl":1,"table":"fmsbooking","field":"startDate","type":"DateTime","description":"Booking Start Date","example":"2020-04-01T00:00:00"}
+{"document":"Booking","section":"","srl":2,"table":"fmsbooking","field":"gstIn","type":"string","description":"Customer GSTIn","example":"UNREGISTERED"}
+{"document":"Booking","section":"","srl":3,"table":"fmsbooking","field":"bookingActiveTill","type":"DateTime","description":"Booking End Date","example":"2020-12-01T00:00:00"}
+{"document":"Booking","section":"","srl":4,"table":"fmsbooking","field":"remarks","type":"string","description":"Narration","example":""}
+{"document":"Booking","section":"","srl":5,"table":"fmsbooking","field":"lpfTemplate","type":"string","description":"LPF Template Name","example":"LPF with 7%"}
+{"document":"Booking","section":"","srl":6,"table":"fmsbooking","field":"unitDesc","type":"string","description":"Unit Description","example":"FMS:200"}
+{"document":"Booking","section":"","srl":7,"table":"fmsbooking","field":"sameAsBookingDocumentNo","type":"string","description":"Same As Booking Doc No","example":""}
+{"document":"Booking","section":"","srl":8,"table":"fmsbooking","field":"sameAsUnitNo","type":"string","description":"Same As Unit No","example":""}
+{"document":"Booking","section":"","srl":9,"table":"fmsbooking","field":"documentNo","type":"string","description":"Booking No","example":"JGERNAG/00005/20-21"}
+{"document":"Booking","section":"","srl":10,"table":"fmsbooking","field":"documentDate","type":"DateTime","description":"Booking Doc Date","example":"2020-10-06T00:00:00"}
+{"document":"Booking","section":"","srl":11,"table":"applicationId","field":"documentNo","type":"string","description":"Application No","example":"JGERAPP/00008/20-21"}
+{"document":"Booking","section":"","srl":12,"table":"applicationId","field":"applicant_firstName","type":"string","description":"Customer First Name","example":"Dona"}
+{"document":"Booking","section":"","srl":13,"table":"applicationId","field":"applicant_middletName","type":"string","description":"Customer Middle Name","example":""}
+{"document":"Booking","section":"","srl":14,"table":"applicationId","field":"applicant_lastName","type":"string","description":"Customer Last Name","example":"Bakshi"}
+{"document":"Booking","section":"","srl":15,"table":"applicationId","field":"applicant_fullName","type":"string","description":"Customer Full Name","example":"Mrs. Dona Bakshi"}
+{"document":"Booking","section":"","srl":16,"table":"applicationId","field":"applicant_udF_16","type":"string","description":"Customer PAN","example":"EULPW8493W"}
+{"document":"Booking","section":"","srl":17,"table":"unitMovement","field":"unitCode","type":"string","description":"Unit Code","example":"FMS:200"}
+{"document":"Booking","section":"","srl":18,"table":"unitMovement","field":"areaInfo_area1","type":"decimal","description":"Unit Super Built up Area","example":"100"}
+{"document":"Booking","section":"","srl":19,"table":"unitMovement","field":"areaInfo_area2","type":"decimal","description":"Unit Built up Area","example":"100"}
+{"document":"Booking","section":"","srl":20,"table":"unitMovement","field":"areaInfo_area3","type":"decimal","description":"Unit Carpet Area","example":"100"}
+{"document":"Booking","section":"","srl":21,"table":"unitMovement","field":"areaInfo_area4","type":"decimal","description":"Unit Chargeable Area","example":"100"}
+{"document":"Booking","section":"","srl":22,"table":"billingInfodetail","field":"revenueheadId_Description","type":"string","description":"Revenue Head Name","example":"CAM Area Basis"}
+{"document":"Booking","section":"","srl":23,"table":"billingInfodetail","field":"effectiveDate","type":"DateTime","description":"Effective date","example":"2020-04-01T00:00:00"}
+{"document":"Booking","section":"","srl":24,"table":"billingInfodetail","field":"value","type":"decimal","description":"Price List Value(Rate/Lumpsum)","example":"10"}
+{"document":"Booking","section":"","srl":25,"table":"billingInfodetail","field":"billfrequencyDescription","type":"string","description":"Bill Frequency","example":"Monthly/Quarterly/ Half Yearly/ Yearly"}
+{"document":"Booking","section":"","srl":26,"table":"billingInfodetail","field":"dueDays","type":"int","description":"Due Days","example":"7"}
+{"document":"Booking","section":"","srl":27,"table":"bookingAddresses","field":"line1","type":"string","description":"Address Line 1","example":"Kasba"}
+{"document":"Booking","section":"","srl":28,"table":"bookingAddresses","field":"line2","type":"string","description":"Address Line 2","example":"Ballygaunge"}
+{"document":"Booking","section":"","srl":29,"table":"bookingAddresses","field":"line3","type":"string","description":"Address Line 3","example":""}
+{"document":"Booking","section":"","srl":30,"table":"bookingAddresses","field":"countryDesc","type":"string","description":"Customer Country","example":"India"}
+{"document":"Booking","section":"","srl":31,"table":"bookingAddresses","field":"sateDesc","type":"string","description":"Customer State","example":"WEST BENGAL"}
+{"document":"Booking","section":"","srl":32,"table":"bookingAddresses","field":"cityDesc","type":"string","description":"Customer City","example":"KOLKATA"}
+{"document":"Booking","section":"","srl":33,"table":"bookingAddresses","field":"zipCode","type":"string","description":"Customer PIN","example":"700016"}
+{"document":"Booking","section":"","srl":34,"table":"businessUnit","field":"parentAddressLine1","type":"string","description":"Company Address 1","example":"Kasba"}
+{"document":"Booking","section":"","srl":35,"table":"businessUnit","field":"parentAddressLine2","type":"string","description":"Company Address 2","example":"Ballygaunge"}
+{"document":"Booking","section":"","srl":36,"table":"businessUnit","field":"parentAddressLine3","type":"string","description":"Company Address 3","example":""}
+{"document":"Booking","section":"","srl":37,"table":"businessUnit","field":"parentCityDesc","type":"string","description":"Company City Name","example":"KOLKATA"}
+{"document":"Booking","section":"","srl":38,"table":"businessUnit","field":"parentStateDesc","type":"string","description":"Company State Name","example":"WEST BENGAL"}
+{"document":"Booking","section":"","srl":39,"table":"businessUnit","field":"parentZipCode","type":"string","description":"Company ZIP Code","example":"700012"}
+{"document":"Booking","section":"","srl":40,"table":"businessUnit","field":"parentCountryDesc","type":"string","description":"Company Country","example":"India"}
+{"document":"Booking","section":"","srl":41,"table":"businessUnit","field":"buFullAddress","type":"string","description":"BU Full Address","example":"Kasba,Gariahut,,,KOLKATA,WEST BENGAL,INDIA PIN Code: 700014"}
+{"document":"Booking","section":"","srl":42,"table":"businessUnit","field":"phone1","type":"string","description":"BU phone","example":"-9632587319"}
+{"document":"Booking","section":"","srl":43,"table":"businessUnit","field":"email1","type":"string","description":"Bu Email","example":"arnab.rab007@gmail.com"}
+{"document":"Booking","section":"","srl":44,"table":"businessUnit","field":"parentDesc","type":"string","description":"Company Name","example":"FMS"}
+{"document":"Booking","section":"","srl":45,"table":"businessUnit","field":"description","type":"string","description":"BU Name","example":"PMS"}
+{"document":"Booking","section":"","srl":46,"table":"businessUnit","field":"cityDesc","type":"string","description":"BU City","example":"KOLKATA"}
+{"document":"Booking","section":"","srl":47,"table":"businessUnit","field":"stateDesc","type":"string","description":"BU State","example":"WEST BENGAL"}
+{"document":"Booking","section":"","srl":48,"table":"businessUnit","field":"countryDesc","type":"string","description":"Bu Country","example":"India"}
+{"document":"Booking","section":"","srl":49,"table":"bookingExtraInfos","field":"caption","type":"string","description":"Extra Info Head","example":"Brand Name/ KVA Load/ Notice Period"}
+{"document":"Booking","section":"","srl":50,"table":"bookingExtraInfos","field":"value","type":"string","description":"Extra Info Value","example":"10"}
+{"document":"Booking","section":"","srl":51,"table":"bookingLOI","field":"revenueHeadDesc","type":"string","description":"Deposit Revenue Head","example":"Security Deposit"}
+{"document":"Booking","section":"","srl":52,"table":"bookingLOI","field":"effectiveFrom","type":"DateTime","description":"LOI Effective date","example":"2020-04-01T00:00:00"}
+{"document":"Booking","section":"","srl":53,"table":"bookingLOI","field":"percentage","type":"decimal","description":"LOI Percentage","example":"10"}
+{"document":"Booking","section":"","srl":54,"table":"bookingLOI","field":"amount","type":"decimal","description":"LOI Amount","example":"1000"}
+{"document":"Booking","section":"","srl":55,"table":"bookingLOI","field":"narration","type":"string","description":"LOI Narration","example":"Deposit 1"}
+{"document":"Booking","section":"","srl":56,"table":"FreeFitOutRentFreePeriod","field":"revenueheadId_description","type":"string","description":"Rent free Revenue Head","example":"CAM Area Basis"}
+{"document":"Booking","section":"","srl":57,"table":"FreeFitOutRentFreePeriod","field":"fromDate","type":"DateTime","description":"From Date","example":"2020-04-01T00:00:00"}
+{"document":"Booking","section":"","srl":58,"table":"FreeFitOutRentFreePeriod","field":"toDate","type":"DateTime","description":"To Date","example":"2020-05-31T00:00:00"}
+{"document":"Booking","section":"","srl":59,"table":"freeFitOut","field":"revenueheadId_description","type":"string","description":"Fit out Revenue Head","example":"CAM Area Basis"}
+{"document":"Booking","section":"","srl":60,"table":"freeFitOut","field":"fromDate","type":"DateTime","description":"Fit Out From Date","example":"2020-04-01T00:00:00"}
+{"document":"Booking","section":"","srl":61,"table":"freeFitOut","field":"toDate","type":"DateTime","description":"Fit Out To Date","example":"2020-05-31T00:00:00"}
+{"document":"Booking","section":"","srl":62,"table":"freeFitOut","field":"rate","type":"decimal","description":"Fit out Rate","example":"10"}
+{"document":"Booking","section":"","srl":63,"table":"freeFitOut","field":"amount","type":"decimal","description":"Fit Out Amount","example":"1000"}
+{"document":"Booking","section":"","srl":64,"table":"escalationDetails","field":"revenueheadId_description","type":"string","description":"Escalated Revenue Head","example":"CAM Area Basis"}
+{"document":"Booking","section":"","srl":65,"table":"escalationDetails","field":"escalationTypeDescr","type":"string","description":"Escalation Type","example":"Amount/ Percentage"}
+{"document":"Booking","section":"","srl":66,"table":"escalationDetails","field":"escalationPeriod","type":"decimal","description":"Escalation Period(in Month)","example":"10"}
+{"document":"Booking","section":"","srl":67,"table":"escalationDetails","field":"esclationValue","type":"decimal","description":"Escalation Value","example":"10"}
+{"document":"Booking","section":"","srl":68,"table":"companyExtraInfo","field":"this are dynamic field","type":"","description":"","example":""}

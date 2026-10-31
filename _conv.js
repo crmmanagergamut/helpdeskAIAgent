@@ -1,0 +1,6 @@
+const fs=require('fs');const env={};fs.readFileSync('.env','utf8').split(/\r?\n/).forEach(l=>{const m=l.match(/^\s*([^#=]+?)\s*=\s*(.*)\s*$/);if(m)env[m[1]]=m[2].replace(/^['"]|['"]$/g,'')});
+const auth='Basic '+Buffer.from(env.FRESHDESK_API_KEY+':X').toString('base64');
+const d=env.FRESHDESK_DOMAIN.replace(/^https?:\/\//,'').replace(/\/.*$/,'');
+const h=async p=>{for(;;){const r=await fetch('https://'+d+'/api/v2'+p,{headers:{Authorization:auth}});if(r.status==429){await new Promise(s=>setTimeout(s,(+r.headers.get('retry-after')||20)*1000));continue}return r.json()}};
+(async()=>{for(const id of process.argv.slice(2)){const t=await h('/tickets/'+id);console.log('\n=========',id,t.subject,'| status',t.status,'| created',t.created_at.slice(0,10),'| rca:',t.custom_fields&&t.custom_fields.cf_rca);console.log('DESC:',(t.description_text||'').slice(0,800));
+const c=await h('/tickets/'+id+'/conversations?per_page=100');for(const x of c){if(x.private&&!x.incoming&&/acknowledge|Reminder: Closure|Closure of Ticket|We.ll get back/i.test(x.body_text||''))continue;console.log('\n--',x.created_at.slice(0,16),'priv',x.private,'in',x.incoming,'uid',x.user_id);console.log((x.body_text||'').replace(/Disclaimer:.*/s,'').trim().slice(0,2500));console.log('imgs',(x.body.match(/<img/g)||[]).length,'atts',(x.attachments||[]).map(a=>a.name).join(','))}}})()

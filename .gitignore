@@ -1,0 +1,21 @@
+.env
+node_modules/
+# downloaded ticket data and drafts (contain customer information)
+t[0-9]*
+ticket-*
+reply-*
+*-extracted/
+_d[0-9]*/
+dx[0-9]*/
+learning/raw/
+*.bak*
+# customer exports and backups
+companies*.json
+contacts*.json
+*-backup.json
+*.xlsx
+*.xls
+*.docx
+*.zip
+*.csv
+!mrt-schema/source-FMS_Print_Data_DTO.xlsx
